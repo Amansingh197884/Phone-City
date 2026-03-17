@@ -806,10 +806,8 @@
             box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
         }
 
-        th,
-        td {
-            border: 1px solid #000 !important;
-        }
+       
+
 
         tbody,
         td,
@@ -845,7 +843,7 @@
 
         th,
         td {
-            border: 1px solid #000 !important;
+            border: 2px solid #205ba6 !important;
         }
 
         tbody,
@@ -1341,5 +1339,5 @@
             font-size: 1.1rem;
         }
           th{
-            color:  #205ba6 !important;
+            color:  #0b5f37 !important;
         }
