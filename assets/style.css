@@ -481,7 +481,7 @@
 
         .floor-plan-section {
             padding: 80px 0;
-            background-color: var(--accent-bg);
+            background-color: #ffb86614;
         }
 
         .floor-plan-section .swiper {
@@ -1130,7 +1130,7 @@
             top: 20px;
             z-index: 10;
             transition: 0.3s ease;
-            background: var(--accent-green) !important;
+            background: #f43a09!important;
             border-radius: 50%;
             border: none;
             padding: 10px;
@@ -1148,7 +1148,7 @@
 
         /* contact section css          */
         .footer-css .contact-form-card {
-            background-color: var(--form-bg);
+            background-color: #f43a09;
             padding: 40px;
             border-radius: 4px;
             border-radius: 40px 0;
@@ -1320,7 +1320,7 @@
         }
 
         .btn-subscribe {
-            background-color: var(--accent-green);
+            background-color: #f43a09;
             color: white;
             border: none;
             border-radius: 50px;
@@ -1396,7 +1396,7 @@
         }
          .fp-project{
                 padding: 80px 0;
-    background-color: var(--accent-bg);
+    background-color: ffb86614;
          }
 
         /* Hover Animation */
