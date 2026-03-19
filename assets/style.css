@@ -34,7 +34,8 @@
 
         /* Navbar Styling */
         .navbar {
-            background-color: var(--green-color);
+            /* background-color: var(--green-color); */
+            background-color: #041C1C;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
             transition: 0.3s;
         }
