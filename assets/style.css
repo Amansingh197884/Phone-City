@@ -1556,3 +1556,12 @@
                 padding: 20px;
             }
         }
+
+        @media screen and (max-width:396px){
+            .hero-btn a{
+        padding: 8px 30px !important;            }
+        }
+        @media screen and (max-width:324px){
+            .hero-btn a{
+        padding: 8px 20px !important;            }
+        }
