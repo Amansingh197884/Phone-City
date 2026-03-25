@@ -19,6 +19,10 @@
 
 
         }
+        .logo img{
+            width: 170px;
+            border-radius: 50px;
+        }
 
         * {
             font-family: 'Philosopher', sans-serif;
@@ -1565,3 +1569,72 @@
             .hero-btn a{
         padding: 8px 20px !important;            }
         }
+        /* side bar  */
+          .contact-sidebar {
+            position: fixed;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 1050;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: flex-end;
+        }
+
+       .contact-sidebar .contact-btn {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            text-decoration: none;
+            color: white;
+            padding: 12px;
+            border-radius: 50px 0 0 50px; 
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            width: 55px; 
+            overflow: hidden;
+            white-space: nowrap;
+            box-shadow: -2px 5px 15px rgba(0,0,0,0.2);
+        }
+
+      .contact-sidebar  .contact-btn:hover {
+            width: 160px; 
+            color: white;
+            padding-left: 20px;
+        }
+
+      .contact-sidebar  .contact-btn i {
+            font-size: 34px;
+            min-width: 30px;
+            text-align: center;
+        }
+
+       .contact-sidebar .contact-btn span {
+            margin-left: 15px;
+            font-weight: 600;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+       .contact-sidebar .contact-btn:hover span {
+            opacity: 1;
+        }
+
+       .contact-sidebar .btn-whatsapp {
+            background-color:var(--accent-green);
+        }
+
+      .contact-sidebar  .btn-call {
+            background-color: var(--form-bg);
+        }
+
+        @media (max-width: 768px) {
+          .contact-sidebar  .contact-btn {
+                width: 50px;
+                padding: 10px;
+            }
+           .contact-sidebar .contact-btn:hover {
+                width: 150px;
+            }
+        }
+   
